@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg xmlns="http://www.w3.org/2000/svg">
+	<script> <![CDATA[
+	    
+		function main(evt) {
+			var target, line, rnd=[];
+
+			target=evt.target;
+			line=target.getAttribute("points");
+			for (i=0;i<400;i++) {
+				rnd[i]=(5*i+","+" "+(200*Math.random())+" ");
+				}		   
+			line=rnd.join();  
+			target.setAttribute("points",line);
+		}
+	   
+	 ]]></script>
+	<polyline style="fill:none;stroke:black;stroke-width:1" onload="main(evt)" />
+</svg>
