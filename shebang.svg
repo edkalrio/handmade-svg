@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="7" width="7" style="stroke: black; stroke-width: 1;">
+	<line x1="1.5" y1="1" x2="1.5" y2="6" />
+	<line x1="3.5" y1="1" x2="3.5" y2="6" />
+
+	<line x1="0" y1="2.5" x2="5" y2="2.5" />
+	<line x1="0" y1="4.5" x2="5" y2="4.5" />
+
+	<line x1="6.5" y1="1" x2="6.5" y2="4" />
+	<line x1="6.5" y1="5" x2="6.5" y2="6" />
+</svg>
